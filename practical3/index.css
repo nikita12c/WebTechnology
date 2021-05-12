@@ -1,0 +1,77 @@
+#bodyid {
+  background-color: #49B749;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper {
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  font-weight: 300;
+}
+
+
+ .completed {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.pretty-button {
+  margin: 10px 2px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: large;
+  background-color: #9B1C20;
+}
+
+.pretty-button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+
+
+#control-wrapper {
+  background-color:rgb(6, 146, 60);
+  padding-top: 26px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.todo-wrapper #empty-button {
+  background-color: #9B1C20;
+}
+
+.todo-wrapper #save-button {
+  background-color: #49B749;
+}
+
+@media only screen and (min-width: 1400px) {
+  .todo-wrapper {
+      width: 50%;
+  }
+
+  .todo-wrapper input {
+      width: 600px;
+  }
+  
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+  .todo-wrapper {
+      width: 75%;
+  }
+
+  .todo-wrapper input {
+      width: 400px;
+  }
+}
